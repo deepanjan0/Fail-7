@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace 'com.khotornak.firewall'
+    namespace "com.example.fail7"
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.khotornak.firewall"
-        minSdk 30
+        applicationId "com.example.fail7"
+        minSdk 21
         targetSdk 34
         versionCode 1
         versionName "1.0"
@@ -19,17 +19,7 @@ android {
             minifyEnabled false
         }
     }
-    
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.11.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'androidx.cardview:cardview:1.0.0'
-    implementation 'androidx.activity:activity:1.8.2'
 }
